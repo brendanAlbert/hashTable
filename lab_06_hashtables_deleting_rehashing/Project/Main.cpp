@@ -1,5 +1,6 @@
 /*
 	Albert, Brendan
+	Fazeli, Bijan
 
 	CS A200
 	March 4, 2017
@@ -61,8 +62,9 @@ int main()
 	(ht1.search(999))? cout << "999 found.\n" : cout << "999 not found.\n";
 	cout << endl;
 
-	ht1.deleteElement(32);
-	ht1.deleteElement(45);
+	cout << ((ht1.deleteElement(32))? "Element deleted.\n\n":"Element not found.\n\n");
+	cout << ((ht1.deleteElement(45)) ? "Element deleted.\n\n" : "Element not found.\n\n");
+	cout << ((ht1.deleteElement(1)) ? "Element deleted.\n\n" : "Element not found.\n\n");
 
 
 	/*

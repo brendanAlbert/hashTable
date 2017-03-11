@@ -5,7 +5,6 @@
 using namespace std;
 
 const int CAPACITY = 11;
-const float HALF_FULL_THRESHOLD = 0.5;
 
 class HashTable
 {
@@ -120,7 +119,7 @@ public:
 
 private:
 
-	void collision(int, int, HashTable&);
+	//void collision(int, int, HashTable&); this function rendered obsolete by better version of rehash() function
 
 	/*
 		Function hashValue
